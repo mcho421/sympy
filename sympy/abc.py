@@ -33,7 +33,7 @@ phi, chi, psi, omega = symbols('phi, chi, psi, omega')
 # This is mostly for diagnosing SymPy's namespace during SymPy development.
 
 _latin = list(string.ascii_letters)
-# COSINEQ should not be imported as they clash; gamma, pi and zeta clash, too
+# OSINEQ should not be imported as they clash; gamma, pi and zeta clash, too
 _greek = list(greeks) # make a copy, so we can mutate it
 # Note: We import lamda since lambda is a reserved keyword in Python
 _greek.remove("lambda")
