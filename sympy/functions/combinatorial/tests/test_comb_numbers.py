@@ -316,6 +316,7 @@ def test_catalan():
     assert str((re(c), im(c))) == '(0.398, -0.0209)'
 
 
+@XFAIL
 def test_genocchi():
     genocchis = [1, -1, 0, 1, 0, -3, 0, 17]
     for n, g in enumerate(genocchis):

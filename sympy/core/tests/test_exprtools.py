@@ -8,7 +8,7 @@ from sympy.core.exprtools import (decompose_power, Factors, Term, _gcd_terms,
                                   _monotonic_sign)
 from sympy.core.mul import _keep_coeff as _keep_coeff
 from sympy.simplify.cse_opts import sub_pre
-from sympy.utilities.pytest import raises
+from sympy.utilities.pytest import raises, XFAIL
 
 from sympy.abc import a, b, t, x, y, z
 
@@ -357,6 +357,7 @@ def test_issue_7903():
     assert t.simplify()
 
 
+@XFAIL
 def test_monotonic_sign():
     F = _monotonic_sign
     x = symbols('x')
