@@ -881,7 +881,6 @@ def test_issue_8642():
     assert (x*2).is_integer is None
 
 
-@XFAIL
 def test_issues_8632_8633_8638_8675_8992():
     p = Dummy(integer=True, positive=True)
     nn = Dummy(integer=True, nonnegative=True)

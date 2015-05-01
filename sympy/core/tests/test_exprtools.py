@@ -357,7 +357,6 @@ def test_issue_7903():
     assert t.simplify()
 
 
-@XFAIL
 def test_monotonic_sign():
     F = _monotonic_sign
     x = symbols('x')

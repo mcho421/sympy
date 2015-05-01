@@ -153,7 +153,6 @@ def test_factorial_rewrite():
     assert str(factorial(k).rewrite(Product)) == 'Product(_i, (_i, 1, k))'
 
 
-@XFAIL
 def test_factorial2():
     n = Symbol('n', integer=True)
 
