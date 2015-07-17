@@ -1616,7 +1616,7 @@ CTR3 = [(TRmorrie, TR8, [TR0, (TR10i, TR0)]), identity]
 
 CTR4 = [(TR4, TR10i), identity]
 
-RL1 = (TR4, TR3, TR4, TR12, TR4, TR13, TR4, TR0)
+RL1 = (TR4, TR3, TR4, TR12, TR4, TR0)
 
 
 # XXX it's a little unclear how this one is to be implemented
