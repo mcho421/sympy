@@ -1612,7 +1612,7 @@ CTR1 = [(TR5, TR0), (TR6, TR0), identity]
 
 CTR2 = (TR11, [(TR5, TR0), (TR6, TR0), TR0])
 
-CTR3 = [(TRmorrie, TR8, TR0), (TRmorrie, TR8, TR10i, TR0), identity]
+CTR3 = [(TRmorrie, TR8, [TR0, (TR10i, TR0)]), identity]
 
 CTR4 = [(TR4, TR10i), identity]
 
